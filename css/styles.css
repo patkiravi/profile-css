@@ -1,0 +1,145 @@
+body{
+  margin:0;
+  text-align: center;
+
+}
+
+hr{
+  border:dotted #539165 6px;
+  border-bottom: none;
+  width: 20%;
+  margin:30px auto;
+}
+
+/*top-container CSS*/
+.top-container{
+  background-color: #DDF7E3;
+}
+.top-cloud{
+  position: relative;
+  top:100px;
+  left:400px;
+}
+
+h1{
+  margin:0 auto;
+  width:50%;
+  font-family: 'Sacramento', cursive;
+  font-size: 6rem;
+  color:#3A98B9;
+}
+
+h3{
+color:#3A98B9;
+
+}
+
+.bottom-cloud{
+position: absolute;
+right:700px;
+bottom:400px;
+}
+
+/*middle-container CSS*/
+.middle-container{
+  margin-top:50px;
+}
+
+.intro-img{
+  border-radius: 60%;
+}
+
+.intro{
+  width: 50%;
+  margin:0 auto 0 auto;
+}
+
+.skill-row{
+  width:50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+}
+
+.code-img{
+  width: 30%;
+  border-radius: 100%;
+  float: left;
+  margin-right: 20px;
+}
+
+.code-description{
+  color:grey;
+}
+
+.chill-img{
+  width: 30%;
+  float:right;
+  margin-left: 20px;
+}
+
+.chilli-description{
+  color:grey;
+}
+
+h2{
+  color:#7DB9B6;
+}
+
+.contact-text{
+  width: 50%;
+  margin: 0 auto 40px auto;
+
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 26;
+  -moz-border-radius: 26;
+  border-radius: 26px;
+  -webkit-box-shadow: 5px 9px 6px #666666;
+  -moz-box-shadow: 5px 9px 6px #666666;
+  box-shadow: 5px 9px 6px #666666;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 10px;
+  border: solid #1f628d 6px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+/*bottom-container CSS*/
+.bottom-container{
+  background-color: #DDF7E3;
+  margin:80px 0 20px;
+  padding:30px 0 20px;
+}
+
+a{
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin:10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color:red;
+}
+
+a:active {
+  color: #0000FF;
+}
